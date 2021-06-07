@@ -14,15 +14,126 @@
         
         <title>Title</title>
     </head>
-    <body>
+    <body style="background-color: bisque;">
         <!-- HTML -->
-        
-        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link float" href="#whySolidState">Why?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link float" href="#progress">Progress</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link float" href="#whyShouldICare">Why You Should Care</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link float" href="#softwareSide" >Software Engineering</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <h1>Solid State Batteries in the Automobile Industry</h1>
+        <div class="container-fluid" id="whySolidState">
+          <div style="margin: 3%;">
+            <h2>Why Solid State?</h2>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="card" style="background-color: beige; max-width: 50%; text-align: center;" >
+                  Solid state batteries are super stable and holds a lot more charge. This means that it would improve the mileage of a car by a lot.
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card" style="background-color: beige; margin-left:-50%; max-width: 50%; text-align: center;">
+                  They also could charge a lot faster than traditional batteries. It is estimated to be about 80% faster compared to LiPo batteries.
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="card" style="background-color: beige; margin-left:-99%; max-width: 50%; text-align: center;">
+                  Cars require very reliable batteries to operate. A car crash could set a car ablaze and therefore having a high chance of killing the passenger.
+                </div>
+              </div>
+          </div>
+          <p>Most if not all modern electric cars are using Lithium Polymer batteries. This poses many risks to the driver and the passenger. Lithium polymer batteries degrade very quickly and could be down to about 80% battery health in just under 2 year. This is a big issue because cars should be reliabled. When the battery dies, there is no way to recycle it efficiently. Here comes Solid state batteries. They have a way longer life span compared to lithium polymer batteries. They are also a lot safer than lithium polymer batteries. Upon being punctured, they will not explode. There are demonstrations that shows that you can actually cut a solid state battery.</p>
+          </div>
+          <div style="margin-left: 3%; margin-top: 3%;" id="progress">
+            <h2>What is the current status?</h2>
+          </div>
+          <div>
+            <p style="padding-left:3%; margin-top: -2%">The big automobile companies such as BMW, Ford, Toyota, General Motors, Hyundai, and Volkswagen have all invested in the development of solid state batteries. The major companies that are developing solid state batteries are as follows.</p>
+          </div>
+          <div class="card-group">
+            <div class="card" style="max-width: 30%;">
+              <img src="img/1200px-QuantumScape_Logo.svg.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">QuantumScape</h5>
+                <p class="card-text">This is the biggest player in the solid state battery development.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card" style="max-width: 30%;">
+              <img src="img/1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BrightVolt</h5>
+                <p class="card-text">They are mostly developing thin film solid state batteries. They are also the company with the highest battery density.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+            <div class="card" style="max-width: 30%;">
+              <img src="img/unnamed.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ilika</h5>
+                <p class="card-text">Ilika is currently the biggest commercial solid state battery supplier. They test and have produced replacement for piezoelectric materials.</p>
+                <p class="card-text"><a href="https://www.ilika.com/"><small class="text-muted">Website Redirect</small></a></p>
+              </div>
+            </div>
+          </div>
+          <div style="margin-left: 3%;" id="whyShouldICare">
+            <h2>Why should I care?</h2>
+          </div>
+          <div>
+            <p style="padding-left:3%; margin-top: -2%">With more people adopting EVs, the more reports of lithium batteries failing in EVs will go up. This could easily be avoided. The automobile industry is going in the direction for exponential growth. You wouldn't want your car or someone else's car catching on fire mid drive right? Solid state batteries fixes this issue. With less battery pollution and less points of failure in a car, this gives the manufacturers more headroom to put more features instead of applying more failsafes. </p>
+          </div>
+          <div style="margin-left: 3%;"id="softwareSide">
+            <h2>How could software engineering be applied?</h2>
+          </div>
+          <div>
+            <p style="padding-left: 3%; margin-top: -2%;">With a more stable battery, that hopefully means that there will be less failsafes required. This means that the programmers could remove or loosen the charging speed limit. Currently Tesla is working on a new LiPo battery that can charge 0-100 in 5 minutes, now if that were solid state, it could charge a lot faster than that, up to 80% faster. There would also be a lot less programming required for the voltage regulations and stuff like that because they can trust that the battery won't explode on them.</p>
+          </div>
+          <button onclick="topFunction()" id="myBtn" class="btn btn-primary" title="Go to top">Back To Top</button>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
         <script>
             // JS
-            
+            function showImage(){
+            document.getElementById('loadingImage').style.visibility=    document.getElementById('loadingImage').style.visibility == 'visible'? 'hidden' : 'visible';
+            }
+            //Get the button:
+            mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "block";
+            }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+            }
             
         </script>
     </body>
