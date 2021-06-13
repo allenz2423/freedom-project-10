@@ -17,7 +17,8 @@ h2 {
 }
 p {
     padding-top: 2%;
-    max-width: 60%;
+    font-size: 20px;
+    max-width: 80%;
 }
 #myBtn {
     position: fixed; 
