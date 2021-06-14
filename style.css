@@ -14,10 +14,10 @@ h2 {
 }
 .card {
     border: 3px solid black;
+    flex-direction: column;
 }
 p {
-    padding-top: 2%;
-    font-size: 20px;
+    font-size: 25px;
     max-width: 80%;
 }
 #myBtn {
